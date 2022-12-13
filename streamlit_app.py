@@ -23,7 +23,7 @@ with col1:
     curbWeight = st.slider('Poids à vide (livres)',1480,4100,2555)
 
 with col2:
-    st.subheader('Caractéristques du moteur :')
+    st.subheader('Caractéristiques du moteur :')
     cylinderNumber = st.selectbox('Nombre de cylindres', ('2','3','4','5','6','8','12'))
     engineSize = st.slider('Taille du moteur (pouces)',50,350,126)
     horsePower = st.slider('Puissance (ch.)',45,300,104)
